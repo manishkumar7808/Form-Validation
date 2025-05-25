@@ -1,0 +1,98 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+button {
+  margin-top: -10px;
+  margin-bottom: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+span {
+  display: block;
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+input[name="phoneCode"] {
+  width: 30%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+input[name="phoneNumber"] {
+  width: 65%;
+  display: inline-block;
+}
